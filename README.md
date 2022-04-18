@@ -34,3 +34,19 @@ Der Stick generiert intern bis zu 255 individuelle Passwörter, die der Stick in
 Digispark, basierend auf Attiny85
 
 Modifizierter Bootloader, der ein neu programmieren verhindert, solange beim einschalten P0 nicht auf GND gebrückt ist. Somit muss der Stick gewaltsam geöffnet werden, bevor er umprogrammiert werden kann.
+
+# Selber bauen
+
+1. Arduino-Boardverwalter URL eingeben:  
+   https://raw.githubusercontent.com/rsrdesarrollo/DigistumpArduino/master/package_digistump_index.json  
+   (Fork von Digistump, mit verschiedenen Tastaturlayouts)
+2. USB einstecken
+3. Micronucleus herunterladen:  
+   https://github.com/micronucleus/micronucleus/releases  
+   Hiermit die Firmware des digispark updaten  
+   $ micronucleus P0GNDfirmware.hex  
+   Warten bis fertig
+4. P0 und GND temporär brücken
+5. Software mit Arduino aufspielen
+6. Taster zwischen GND und P2 einlöten
+7. Temporäre Brücke zwischen P0 und GND entfernen.
