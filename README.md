@@ -35,6 +35,12 @@ Digispark, basierend auf Attiny85
 
 Modifizierter Bootloader, der ein neu programmieren verhindert, solange beim einschalten P0 nicht auf GND gebrückt ist. Somit muss der Stick gewaltsam geöffnet werden, bevor er umprogrammiert werden kann.
 
+# Achtung: 
+
+* Der Modifizierte Bootloader verhindert nicht ein Auslesen des ATiny selbst. Hat eine Person physikalischen Zugriff auf den Chip, so kann sie den internen Schlüssel auslesen und damit den Stick replizieren.
+* Der modifizierte Bootloader dient zum Schutz, dass kein anderer code in kürzester Zeit von einer dritten Person aufgespielt werden kann.
+* Jeder der zugriff auf den Stick hat, kann die Passwörter auslesen.
+
 # Selber bauen
 
 1. Arduino-Boardverwalter URL eingeben:  
