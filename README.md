@@ -33,7 +33,7 @@ Der Stick generiert intern bis zu 255 individuelle Passwörter, die der Stick in
 # Hardware
 Digispark, basierend auf Attiny85
 
-Modifizierter Bootloader, der ein neu programmieren verhindert, solange beim einschalten P0 nicht auf GND gebrückt ist. Somit muss der Stick gewaltsam geöffnet werden, bevor er umprogrammiert werden kann.
+Modifizierter Bootloader, der ein neu programmieren verhindert, solange beim einschalten P0 nicht auf GND gebrückt ist. Somit muss der Stick gewaltsam geöffnet werden, bevor er umprogrammiert werden kann. Der ROM des ATTiny ist nicht gesperrt, was durch setzen der passenden fuses / lock-bits erreicht werden kann. Falls dies gewünscht ist einfach die passenden parameter dem Uploader mitgeben :), ist aber auch nicht zu 100% sicher.
 
 # Achtung: 
 
