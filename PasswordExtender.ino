@@ -5,7 +5,6 @@
 
 #define LEDPIN 1
 #define BUTTONLONG 500
-#define BUTTON 2         // Short to gnd with a button to toggle the jiggler state
 #define PWLENGTH 20
 #define SECRETADDRESS 1
 
