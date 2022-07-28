@@ -40,6 +40,7 @@ Modifizierter Bootloader, der ein neu programmieren verhindert, solange beim ein
 * Der Modifizierte Bootloader verhindert nicht ein Auslesen des ATiny selbst. Hat eine Person physikalischen Zugriff auf den Chip, so kann sie den internen Schlüssel auslesen und damit den Stick replizieren.
 * Der modifizierte Bootloader dient zum Schutz, dass kein fremder Code in kürzester Zeit von einer dritten Person aufgespielt werden kann.
 * Jeder der Zugriff auf den Stick hat, kann in der Theorie mit etwas Gewalt oder durch das einstechen des sticks in einen Rechner die Passwörter auslesen oder bei der gewaltsammen Methode an das Secret kommen. (hievor schützen auch keine lockbits)
+* Es wird ein pseudo random number generator verwendet, wer den Algorithmus kennt, kann auf weitere Passwörter schließen.
 
 # Selber bauen
 
