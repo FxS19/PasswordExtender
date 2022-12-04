@@ -1,6 +1,6 @@
 # PasswordExtender
 USB-Gerät, das auf Knopfdruck Passwörter eingibt.
-Zur sicherheit sollte immer ein eigenes Passwort vorher in das Passwortfeld eingegeben werden, welches der Stick um sein Passwort erweitert. Der Stick kann somit als Enter-Taste für Passwörter verwendet werden.
+Zur Sicherheit sollte immer ein eigenes Passwort vorher in das Passwortfeld eingegeben werden, welches der Stick um sein Passwort erweitert. Der Stick kann somit als Enter-Taste für Passwörter verwendet werden.
 
 # Funktionsweise:
 
